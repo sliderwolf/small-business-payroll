@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  small business payroll
 //
-//  Created by michael morgano on 3/20/16.
+//  Created by Michael Morgano and Wayne Hill on 3/20/16.
 //  Copyright © 2016 mike,karl,wayne. All rights reserved.
 //
 
