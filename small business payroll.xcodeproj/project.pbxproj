@@ -14,6 +14,18 @@
 		126B2DD71C9F6B6F00ACB4C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126B2DD51C9F6B6F00ACB4C6 /* Main.storyboard */; };
 		126B2DD91C9F6B6F00ACB4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126B2DD81C9F6B6F00ACB4C6 /* Assets.xcassets */; };
 		126B2DDC1C9F6B6F00ACB4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126B2DDA1C9F6B6F00ACB4C6 /* LaunchScreen.storyboard */; };
+		B0938F2E1CFA9B2200B9A13B /* AdditionalIncome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F221CFA9B2200B9A13B /* AdditionalIncome.jpg */; };
+		B0938F2F1CFA9B2200B9A13B /* CalculatePay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F231CFA9B2200B9A13B /* CalculatePay.jpg */; };
+		B0938F301CFA9B2200B9A13B /* CompanyInfo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F241CFA9B2200B9A13B /* CompanyInfo.jpg */; };
+		B0938F311CFA9B2200B9A13B /* Deductions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F251CFA9B2200B9A13B /* Deductions.jpg */; };
+		B0938F321CFA9B2200B9A13B /* EmployeeEarnings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F261CFA9B2200B9A13B /* EmployeeEarnings.jpg */; };
+		B0938F331CFA9B2200B9A13B /* EmployeePaychecks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F271CFA9B2200B9A13B /* EmployeePaychecks.jpg */; };
+		B0938F341CFA9B2200B9A13B /* Employees.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F281CFA9B2200B9A13B /* Employees.jpg */; };
+		B0938F351CFA9B2200B9A13B /* EnterHours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F291CFA9B2200B9A13B /* EnterHours.jpg */; };
+		B0938F361CFA9B2200B9A13B /* FederalTaxes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F2A1CFA9B2200B9A13B /* FederalTaxes.jpg */; };
+		B0938F371CFA9B2200B9A13B /* PrintPaychecks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F2B1CFA9B2200B9A13B /* PrintPaychecks.jpg */; };
+		B0938F381CFA9B2200B9A13B /* W2&W3Statements.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F2C1CFA9B2200B9A13B /* W2&W3Statements.jpg */; };
+		B0938F391CFA9B2200B9A13B /* WelcomeScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0938F2D1CFA9B2200B9A13B /* WelcomeScreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,18 @@
 		126B2DD81C9F6B6F00ACB4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126B2DDB1C9F6B6F00ACB4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126B2DDD1C9F6B6F00ACB4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0938F221CFA9B2200B9A13B /* AdditionalIncome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AdditionalIncome.jpg; sourceTree = "<group>"; };
+		B0938F231CFA9B2200B9A13B /* CalculatePay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CalculatePay.jpg; sourceTree = "<group>"; };
+		B0938F241CFA9B2200B9A13B /* CompanyInfo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CompanyInfo.jpg; sourceTree = "<group>"; };
+		B0938F251CFA9B2200B9A13B /* Deductions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Deductions.jpg; sourceTree = "<group>"; };
+		B0938F261CFA9B2200B9A13B /* EmployeeEarnings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EmployeeEarnings.jpg; sourceTree = "<group>"; };
+		B0938F271CFA9B2200B9A13B /* EmployeePaychecks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EmployeePaychecks.jpg; sourceTree = "<group>"; };
+		B0938F281CFA9B2200B9A13B /* Employees.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Employees.jpg; sourceTree = "<group>"; };
+		B0938F291CFA9B2200B9A13B /* EnterHours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EnterHours.jpg; sourceTree = "<group>"; };
+		B0938F2A1CFA9B2200B9A13B /* FederalTaxes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FederalTaxes.jpg; sourceTree = "<group>"; };
+		B0938F2B1CFA9B2200B9A13B /* PrintPaychecks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PrintPaychecks.jpg; sourceTree = "<group>"; };
+		B0938F2C1CFA9B2200B9A13B /* W2&W3Statements.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "W2&W3Statements.jpg"; sourceTree = "<group>"; };
+		B0938F2D1CFA9B2200B9A13B /* WelcomeScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WelcomeScreen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,18 @@
 			children = (
 				126B2DCC1C9F6B6F00ACB4C6 /* small business payroll */,
 				126B2DCB1C9F6B6F00ACB4C6 /* Products */,
+				B0938F221CFA9B2200B9A13B /* AdditionalIncome.jpg */,
+				B0938F231CFA9B2200B9A13B /* CalculatePay.jpg */,
+				B0938F241CFA9B2200B9A13B /* CompanyInfo.jpg */,
+				B0938F251CFA9B2200B9A13B /* Deductions.jpg */,
+				B0938F261CFA9B2200B9A13B /* EmployeeEarnings.jpg */,
+				B0938F271CFA9B2200B9A13B /* EmployeePaychecks.jpg */,
+				B0938F281CFA9B2200B9A13B /* Employees.jpg */,
+				B0938F291CFA9B2200B9A13B /* EnterHours.jpg */,
+				B0938F2A1CFA9B2200B9A13B /* FederalTaxes.jpg */,
+				B0938F2B1CFA9B2200B9A13B /* PrintPaychecks.jpg */,
+				B0938F2C1CFA9B2200B9A13B /* W2&W3Statements.jpg */,
+				B0938F2D1CFA9B2200B9A13B /* WelcomeScreen.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,8 +165,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				126B2DDC1C9F6B6F00ACB4C6 /* LaunchScreen.storyboard in Resources */,
+				B0938F331CFA9B2200B9A13B /* EmployeePaychecks.jpg in Resources */,
+				B0938F301CFA9B2200B9A13B /* CompanyInfo.jpg in Resources */,
+				B0938F321CFA9B2200B9A13B /* EmployeeEarnings.jpg in Resources */,
+				B0938F391CFA9B2200B9A13B /* WelcomeScreen.jpg in Resources */,
 				126B2DD91C9F6B6F00ACB4C6 /* Assets.xcassets in Resources */,
+				B0938F381CFA9B2200B9A13B /* W2&W3Statements.jpg in Resources */,
+				B0938F311CFA9B2200B9A13B /* Deductions.jpg in Resources */,
+				B0938F371CFA9B2200B9A13B /* PrintPaychecks.jpg in Resources */,
+				B0938F351CFA9B2200B9A13B /* EnterHours.jpg in Resources */,
+				B0938F361CFA9B2200B9A13B /* FederalTaxes.jpg in Resources */,
 				126B2DD71C9F6B6F00ACB4C6 /* Main.storyboard in Resources */,
+				B0938F341CFA9B2200B9A13B /* Employees.jpg in Resources */,
+				B0938F2F1CFA9B2200B9A13B /* CalculatePay.jpg in Resources */,
+				B0938F2E1CFA9B2200B9A13B /* AdditionalIncome.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
