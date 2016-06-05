@@ -522,6 +522,29 @@
             </objects>
             <point key="canvasLocation" x="-896" y="90"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="9di-nH-eaL">
+            <objects>
+                <viewController id="W3I-bc-4vK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mQU-KF-Ptx"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hr8-zv-wqK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oqd-6g-LD2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmployeeEarnings.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-XI-5Pe">
+                                <rect key="frame" x="20" y="8" width="497" height="464"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o1I-AM-bRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414" y="135"/>
+        </scene>
         <!--Item-->
         <scene sceneID="71Y-YD-pWa">
             <objects>
@@ -1563,27 +1586,35 @@
             </objects>
             <point key="canvasLocation" x="398" y="-586"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="wP7-XD-txd">
+        <!--View Controller-->
+        <scene sceneID="6GU-VO-pE0">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uQ3-oK-GhL" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="WLv-re-0vF">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="Y9J-wu-jog" kind="relationship" relationship="viewControllers" id="xDH-WL-6Ik"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="47J-9B-s3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="bxg-OH-U3H" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EUv-5m-EQj"/>
+                        <viewControllerLayoutGuide type="bottom" id="zdS-rv-NX9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0sp-gJ-vs6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CompanyInfo" translatesAutoresizingMaskIntoConstraints="NO" id="rfG-cn-rCH">
+                                <rect key="frame" x="-12" y="0.0" width="522" height="491"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WNI-cV-3PH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-252" y="95"/>
+            <point key="canvasLocation" x="-208" y="119"/>
         </scene>
     </scenes>
     <resources>
         <image name="AdditionalIncome.jpg" width="150" height="152"/>
+        <image name="CompanyInfo" width="134" height="139"/>
         <image name="CompanyInfo.jpg" width="134" height="139"/>
+        <image name="EmployeeEarnings.jpg" width="134" height="91"/>
         <image name="WelcomeScreen.jpg" width="150" height="141"/>
     </resources>
 </document>
