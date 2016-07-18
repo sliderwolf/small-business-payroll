@@ -31,6 +31,9 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1b-V9-EN7">
                                 <rect key="frame" x="20" y="44" width="560" height="536"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Deductions" translatesAutoresizingMaskIntoConstraints="NO" id="vP2-Tb-xiy">
+                                        <rect key="frame" x="0.0" y="8" width="560" height="495"/>
+                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Gross Salary YTD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1o-U5-FEU">
                                         <rect key="frame" x="11" y="113" width="195" height="31"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -523,6 +526,29 @@
             <point key="canvasLocation" x="-896" y="90"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4Qj-7G-f4T">
+            <objects>
+                <viewController id="jI0-Ug-Tgi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n7d-HL-c1k"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fgm-3A-Qpx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ucw-6W-Xgj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Employees" translatesAutoresizingMaskIntoConstraints="NO" id="EZA-uv-qZ5">
+                                <rect key="frame" x="20" y="20" width="560" height="508"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x8w-Qt-xDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-902" y="807"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="9di-nH-eaL">
             <objects>
                 <viewController id="W3I-bc-4vK" sceneMemberID="viewController">
@@ -534,7 +560,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmployeeEarnings.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-XI-5Pe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmployeePaychecks" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-XI-5Pe">
                                 <rect key="frame" x="20" y="8" width="497" height="464"/>
                             </imageView>
                         </subviews>
@@ -556,13 +582,18 @@
                     <view key="view" contentMode="scaleToFill" id="nqB-d4-MMn">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CalculatePay" translatesAutoresizingMaskIntoConstraints="NO" id="QgS-Lu-beI">
+                                <rect key="frame" x="20" y="24" width="555" height="552"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="zu1-UZ-HYp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2XE-uk-jcj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560" y="95"/>
+            <point key="canvasLocation" x="-240" y="-545"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="FUW-DH-wuN">
@@ -1039,7 +1070,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="64g-Is-kOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-896" y="-586"/>
+            <point key="canvasLocation" x="436" y="1527"/>
         </scene>
         <!--Item 3-->
         <scene sceneID="iEa-bt-u1D">
@@ -1537,7 +1568,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysS-Jq-gVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-254" y="-586"/>
+            <point key="canvasLocation" x="414" y="-550"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Am9-gK-0JX">
@@ -1574,6 +1605,85 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AdditionalIncome.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CSq-QF-71m">
                                 <rect key="frame" x="20" y="28" width="560" height="523"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaz-ZG-tBZ">
+                                <rect key="frame" x="64" y="80" width="63" height="26"/>
+                                <state key="normal" title="Save"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQ1-jN-ZXo">
+                                <rect key="frame" x="211" y="80" width="65" height="27"/>
+                                <state key="normal" title="Delete"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwn-md-b6Z">
+                                <rect key="frame" x="135" y="80" width="68" height="26"/>
+                                <state key="normal" title="New"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q1-SN-sMS">
+                                <rect key="frame" x="64" y="114" width="88" height="25"/>
+                                <state key="normal" title="Load From List..."/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calculate Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8F-kJ-ZWR">
+                                <rect key="frame" x="178" y="115" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Additional Income" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKn-0h-KGW">
+                                <rect key="frame" x="64" y="147" width="88" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bonus" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X7v-Jf-Kaz">
+                                <rect key="frame" x="60" y="163" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W2q-ql-bi9">
+                                <rect key="frame" x="60" y="195" width="104" height="339"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Variable Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDu-Bt-uHK">
+                                <rect key="frame" x="211" y="138" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fixed Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1No-F8-8Bw">
+                                <rect key="frame" x="211" y="158" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fixed % of Sales" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPd-Uv-a3o">
+                                <rect key="frame" x="211" y="187" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mileage Amount Per Mile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDL-zf-hbS">
+                                <rect key="frame" x="211" y="211" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Piecework Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuY-Es-2IS">
+                                <rect key="frame" x="211" y="240" width="60" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Include with Wges for Dept/Job Posting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jp0-w9-Vxd">
+                                <rect key="frame" x="209" y="303" width="339" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Omit From Net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQ3-wE-6eD">
+                                <rect key="frame" x="209" y="289" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.97826086960000003" green="0.91848131079999995" blue="0.73914263440000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1584,7 +1694,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wB2-nL-cRi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="398" y="-586"/>
+            <point key="canvasLocation" x="-918" y="-586"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6GU-VO-pE0">
@@ -1598,7 +1708,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CompanyInfo" translatesAutoresizingMaskIntoConstraints="NO" id="rfG-cn-rCH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmployeeEarnings" translatesAutoresizingMaskIntoConstraints="NO" id="rfG-cn-rCH">
                                 <rect key="frame" x="-12" y="0.0" width="522" height="491"/>
                             </imageView>
                         </subviews>
@@ -1609,12 +1719,111 @@
             </objects>
             <point key="canvasLocation" x="-208" y="119"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="mO5-kU-6Ou">
+            <objects>
+                <viewController id="L81-lp-wqZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DNL-Tt-MWc"/>
+                        <viewControllerLayoutGuide type="bottom" id="13o-HS-Ehl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D10-eA-OnK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W2&amp;W3Statements.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0g0-IM-6Mb">
+                                <rect key="frame" x="0.0" y="20" width="580" height="580"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVC-Kh-MuX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-199" y="1519"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OeY-c1-aNp">
+            <objects>
+                <viewController id="PvY-iA-bC4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yGY-PN-Z3H"/>
+                        <viewControllerLayoutGuide type="bottom" id="pRl-gw-qo4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Oo-pN-0E9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EnterHours.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="m04-ph-TGD">
+                                <rect key="frame" x="20" y="20" width="560" height="508"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwD-X7-gWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182" y="831"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U19-tp-U2m">
+            <objects>
+                <viewController id="sI4-sf-kc0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EW9-Za-A6A"/>
+                        <viewControllerLayoutGuide type="bottom" id="2V4-UJ-Ah8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OTZ-bn-Cpq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FederalTaxes" translatesAutoresizingMaskIntoConstraints="NO" id="RKy-oW-dbZ">
+                                <rect key="frame" x="20" y="20" width="560" height="508"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGs-JG-fsl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="823"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="61o-oZ-QMJ">
+            <objects>
+                <viewController id="pEQ-NP-waa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9ge-FV-9UO"/>
+                        <viewControllerLayoutGuide type="bottom" id="F06-kg-Srk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c3l-LP-S8O">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PrintPaychecks.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="veJ-Hu-CXy">
+                                <rect key="frame" x="20" y="20" width="560" height="508"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Glx-pB-SAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-878" y="1567"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AdditionalIncome.jpg" width="150" height="152"/>
-        <image name="CompanyInfo" width="134" height="139"/>
+        <image name="CalculatePay" width="150" height="124"/>
         <image name="CompanyInfo.jpg" width="134" height="139"/>
-        <image name="EmployeeEarnings.jpg" width="134" height="91"/>
+        <image name="Deductions" width="150" height="166"/>
+        <image name="EmployeeEarnings" width="134" height="91"/>
+        <image name="EmployeePaychecks" width="150" height="102"/>
+        <image name="Employees" width="150" height="129"/>
+        <image name="EnterHours.jpg" width="150" height="118"/>
+        <image name="FederalTaxes" width="150" height="144"/>
+        <image name="PrintPaychecks.jpg" width="150" height="104"/>
+        <image name="W2&amp;W3Statements.jpg" width="150" height="122"/>
         <image name="WelcomeScreen.jpg" width="150" height="141"/>
     </resources>
 </document>
