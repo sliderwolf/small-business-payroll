@@ -38,18 +38,18 @@
 		126B2DD81C9F6B6F00ACB4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126B2DDB1C9F6B6F00ACB4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126B2DDD1C9F6B6F00ACB4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0938F221CFA9B2200B9A13B /* AdditionalIncome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AdditionalIncome.jpg; sourceTree = "<group>"; };
-		B0938F231CFA9B2200B9A13B /* CalculatePay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CalculatePay.jpg; sourceTree = "<group>"; };
-		B0938F241CFA9B2200B9A13B /* CompanyInfo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CompanyInfo.jpg; sourceTree = "<group>"; };
-		B0938F251CFA9B2200B9A13B /* Deductions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Deductions.jpg; sourceTree = "<group>"; };
-		B0938F261CFA9B2200B9A13B /* EmployeeEarnings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EmployeeEarnings.jpg; sourceTree = "<group>"; };
-		B0938F271CFA9B2200B9A13B /* EmployeePaychecks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EmployeePaychecks.jpg; sourceTree = "<group>"; };
-		B0938F281CFA9B2200B9A13B /* Employees.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Employees.jpg; sourceTree = "<group>"; };
-		B0938F291CFA9B2200B9A13B /* EnterHours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EnterHours.jpg; sourceTree = "<group>"; };
-		B0938F2A1CFA9B2200B9A13B /* FederalTaxes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FederalTaxes.jpg; sourceTree = "<group>"; };
-		B0938F2B1CFA9B2200B9A13B /* PrintPaychecks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PrintPaychecks.jpg; sourceTree = "<group>"; };
-		B0938F2C1CFA9B2200B9A13B /* W2&W3Statements.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "W2&W3Statements.jpg"; sourceTree = "<group>"; };
-		B0938F2D1CFA9B2200B9A13B /* WelcomeScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WelcomeScreen.jpg; sourceTree = "<group>"; };
+		B0938F221CFA9B2200B9A13B /* AdditionalIncome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AdditionalIncome.jpg; path = ../AdditionalIncome.jpg; sourceTree = "<group>"; };
+		B0938F231CFA9B2200B9A13B /* CalculatePay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CalculatePay.jpg; path = ../CalculatePay.jpg; sourceTree = "<group>"; };
+		B0938F241CFA9B2200B9A13B /* CompanyInfo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CompanyInfo.jpg; path = ../CompanyInfo.jpg; sourceTree = "<group>"; };
+		B0938F251CFA9B2200B9A13B /* Deductions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Deductions.jpg; path = ../Deductions.jpg; sourceTree = "<group>"; };
+		B0938F261CFA9B2200B9A13B /* EmployeeEarnings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EmployeeEarnings.jpg; path = ../EmployeeEarnings.jpg; sourceTree = "<group>"; };
+		B0938F271CFA9B2200B9A13B /* EmployeePaychecks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EmployeePaychecks.jpg; path = ../EmployeePaychecks.jpg; sourceTree = "<group>"; };
+		B0938F281CFA9B2200B9A13B /* Employees.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Employees.jpg; path = ../Employees.jpg; sourceTree = "<group>"; };
+		B0938F291CFA9B2200B9A13B /* EnterHours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EnterHours.jpg; path = ../EnterHours.jpg; sourceTree = "<group>"; };
+		B0938F2A1CFA9B2200B9A13B /* FederalTaxes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FederalTaxes.jpg; path = ../FederalTaxes.jpg; sourceTree = "<group>"; };
+		B0938F2B1CFA9B2200B9A13B /* PrintPaychecks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PrintPaychecks.jpg; path = ../PrintPaychecks.jpg; sourceTree = "<group>"; };
+		B0938F2C1CFA9B2200B9A13B /* W2&W3Statements.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "W2&W3Statements.jpg"; path = "../W2&W3Statements.jpg"; sourceTree = "<group>"; };
+		B0938F2D1CFA9B2200B9A13B /* WelcomeScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WelcomeScreen.jpg; path = ../WelcomeScreen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +68,6 @@
 			children = (
 				126B2DCC1C9F6B6F00ACB4C6 /* small business payroll */,
 				126B2DCB1C9F6B6F00ACB4C6 /* Products */,
-				B0938F221CFA9B2200B9A13B /* AdditionalIncome.jpg */,
-				B0938F231CFA9B2200B9A13B /* CalculatePay.jpg */,
-				B0938F241CFA9B2200B9A13B /* CompanyInfo.jpg */,
-				B0938F251CFA9B2200B9A13B /* Deductions.jpg */,
-				B0938F261CFA9B2200B9A13B /* EmployeeEarnings.jpg */,
-				B0938F271CFA9B2200B9A13B /* EmployeePaychecks.jpg */,
-				B0938F281CFA9B2200B9A13B /* Employees.jpg */,
-				B0938F291CFA9B2200B9A13B /* EnterHours.jpg */,
-				B0938F2A1CFA9B2200B9A13B /* FederalTaxes.jpg */,
-				B0938F2B1CFA9B2200B9A13B /* PrintPaychecks.jpg */,
-				B0938F2C1CFA9B2200B9A13B /* W2&W3Statements.jpg */,
-				B0938F2D1CFA9B2200B9A13B /* WelcomeScreen.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +90,28 @@
 				126B2DD81C9F6B6F00ACB4C6 /* Assets.xcassets */,
 				126B2DDA1C9F6B6F00ACB4C6 /* LaunchScreen.storyboard */,
 				126B2DDD1C9F6B6F00ACB4C6 /* Info.plist */,
+				B02E12CA1D3C4ACA0001A343 /* Photos  */,
 			);
 			path = "small business payroll";
+			sourceTree = "<group>";
+		};
+		B02E12CA1D3C4ACA0001A343 /* Photos  */ = {
+			isa = PBXGroup;
+			children = (
+				B0938F221CFA9B2200B9A13B /* AdditionalIncome.jpg */,
+				B0938F231CFA9B2200B9A13B /* CalculatePay.jpg */,
+				B0938F241CFA9B2200B9A13B /* CompanyInfo.jpg */,
+				B0938F251CFA9B2200B9A13B /* Deductions.jpg */,
+				B0938F261CFA9B2200B9A13B /* EmployeeEarnings.jpg */,
+				B0938F271CFA9B2200B9A13B /* EmployeePaychecks.jpg */,
+				B0938F281CFA9B2200B9A13B /* Employees.jpg */,
+				B0938F291CFA9B2200B9A13B /* EnterHours.jpg */,
+				B0938F2A1CFA9B2200B9A13B /* FederalTaxes.jpg */,
+				B0938F2B1CFA9B2200B9A13B /* PrintPaychecks.jpg */,
+				B0938F2C1CFA9B2200B9A13B /* W2&W3Statements.jpg */,
+				B0938F2D1CFA9B2200B9A13B /* WelcomeScreen.jpg */,
+			);
+			name = "Photos ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
