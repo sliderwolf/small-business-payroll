@@ -1814,6 +1814,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmployeeEarnings" translatesAutoresizingMaskIntoConstraints="NO" id="rfG-cn-rCH">
                                 <rect key="frame" x="-12" y="0.0" width="522" height="491"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-14" y="20" width="522" height="491"/>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2011,6 +2014,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FederalTaxes" translatesAutoresizingMaskIntoConstraints="NO" id="RKy-oW-dbZ">
                                 <rect key="frame" x="20" y="20" width="560" height="508"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="40" width="560" height="508"/>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
